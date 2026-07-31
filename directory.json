@@ -6,11 +6,6 @@
       "description": "A spooky first-person shooter where players navigate a 3D maze, hunting a wave of monsters to clear the stage."
     },
     {
-      "name": "QuakeZealOS.zip",
-      "author": "Author: y4my4my4m",
-      "description": "A Quake engine written natively in ZealC."
-    },
-    {
       "name": "TOOM.zip",
       "author": "Author: Church of AI Christ",
       "description": "TOOM is a HolyC source port inspired by the legendary DOOM, reimagined specifically for TempleOS."
