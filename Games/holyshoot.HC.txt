@@ -1,0 +1,2 @@
+Author: c6dy
+A shoot em up / bullet hell game for TempleOS written in HolyC.
