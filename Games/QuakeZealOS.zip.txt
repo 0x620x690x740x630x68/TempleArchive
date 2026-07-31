@@ -1,2 +1,0 @@
-Author: y4my4my4m
-A Quake engine written natively in ZealC.
