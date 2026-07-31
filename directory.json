@@ -1,0 +1,19 @@
+{
+  "Games": [
+    {
+      "name": "CastleFrankenstein.HC",
+      "author": "Author: Terry A. Davis",
+      "description": "A spooky first-person shooter where players navigate a 3D maze, hunting a wave of monsters to clear the stage."
+    },
+    {
+      "name": "TOOM.zip",
+      "author": "Author: Church of AI Christ",
+      "description": "TOOM is a HolyC source port inspired by the legendary DOOM, reimagined specifically for TempleOS."
+    },
+    {
+      "name": "Varoom.HC",
+      "author": "Author: Terry A. Davis",
+      "description": "A fast-paced driving game where players dodge obstacles and other cars to navigate a randomly generating, winding road."
+    }
+  ]
+}
