@@ -1,0 +1,57 @@
+name: Auto-Generate Directory Index Matrix
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Execute Universal Folder Mapping Scan
+        run: |
+          node -e '
+          const fs = require("fs");
+          const path = require("path");
+          const folder = "Games";
+          const map = { [folder]: [] };
+
+          if (fs.existsSync(folder)) {
+              // Filters out individual documentation .txt paths to find raw files
+              const files = fs.readdirSync(folder).filter(f => !f.toLowerCase().endsWith(".txt"));
+              
+              files.forEach(file => {
+                  let author = "Author: Unknown/Community";
+                  let description = "No documentation string allocated for this source file binary.";
+                  const txtPath = path.join(folder, file + ".txt");
+                  
+                  if (fs.existsSync(txtPath)) {
+                      const txtContent = fs.readFileSync(txtPath, "utf-8").trim();
+                      const lines = txtContent.split("\n");
+                      if (lines[0] && lines[0].toLowerCase().startsWith("author:")) {
+                          author = lines[0];
+                          description = lines.slice(1).join("\n").trim();
+                      } else {
+                          description = txtContent;
+                      }
+                  }
+                  map[folder].push({ name: file, author, description });
+              });
+              fs.writeFileSync("directory.json", JSON.stringify(map, null, 2));
+          }
+          '
+
+      - name: Commit and Push Index Changes Back to Repository
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "actions@github.com"
+          git add directory.json
+          git commit -m "chore: automated universal update to directory manifest" || exit 0
+          git push
