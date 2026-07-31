@@ -1,2 +1,2 @@
 Author: Terry A. Davis
-A fast-paced retro driving game where players dodge obstacles and other cars to navigate a randomly generating, winding road.
+A fast-paced driving game where players dodge obstacles and other cars to navigate a randomly generating, winding road.
