@@ -1,0 +1,2 @@
+Author: Terry A. Davis
+Play chess against a friend or a bot in 2.5D.
