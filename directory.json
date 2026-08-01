@@ -21,6 +21,11 @@
       "description": "Play chess against a friend or a bot in 2.5D."
     },
     {
+      "name": "Flappy.HC",
+      "author": "Author: Unknown/Community",
+      "description": "No documentation string allocated for this source file binary."
+    },
+    {
       "name": "TOOM.zip",
       "author": "Author: Church of AI Christ",
       "description": "TOOM is a HolyC source port inspired by the legendary DOOM, reimagined specifically for TempleOS."
