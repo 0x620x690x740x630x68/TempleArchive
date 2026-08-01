@@ -1,0 +1,2 @@
+Author: Terry A. Davis
+Pilot a B17 aircraft and shoot waves of incoming enemies.
