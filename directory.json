@@ -36,6 +36,11 @@
       "description": "A fast-paced driving game where players dodge obstacles and other cars to navigate a randomly generating, winding road."
     },
     {
+      "name": "chocolate-duke3d.zip",
+      "author": "Author: Unknown/Community",
+      "description": "No documentation string allocated for this source file binary."
+    },
+    {
       "name": "holyshoot.HC",
       "author": "Author: c6dy",
       "description": "A shoot em up / bullet hell game for TempleOS written in HolyC."
