@@ -30,5 +30,12 @@
       "author": "Author: c6dy",
       "description": "A shoot em up / bullet hell game for TempleOS written in HolyC."
     }
+  ],
+  "ZealOS": [
+    {
+      "name": "QuakeZealOS.zip",
+      "author": "Author: y4my4my4m",
+      "description": "A Quake engine written natively in ZealC."
+    }
   ]
 }
