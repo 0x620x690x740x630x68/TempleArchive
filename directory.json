@@ -56,8 +56,8 @@
   "Utilities": [
     {
       "name": "fbneo.zip",
-      "author": "Author: Unknown/Community",
-      "description": "No documentation string allocated for this source file binary."
+      "author": "Author: Alec Murphy",
+      "description": "FinalBurn Neo SDL2 port for TempleOS."
     }
   ]
 }
