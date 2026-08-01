@@ -1,0 +1,2 @@
+Author: Alec Murphy
+FinalBurn Neo SDL2 port for TempleOS.
