@@ -20,32 +20,42 @@ jobs:
           node -e '
           const fs = require("fs");
           const path = require("path");
-          const folder = "Games", "ZealOS";
-          const map = { [folder]: [] };
+          
+          // Define all top-level archive directories to scan here
+          const folders = ["Games", "ZealOS", "Utilities", "Demos", "Forks"];
+          const map = {};
 
-          if (fs.existsSync(folder)) {
-              // Filters out individual documentation .txt paths to find raw files
-              const files = fs.readdirSync(folder).filter(f => !f.toLowerCase().endsWith(".txt"));
-              
-              files.forEach(file => {
-                  let author = "Author: Unknown/Community";
-                  let description = "No documentation string allocated for this source file binary.";
-                  const txtPath = path.join(folder, file + ".txt");
+          folders.forEach(folder => {
+              if (fs.existsSync(folder)) {
+                  // Creates a completely separated folder block inside the master object
+                  map[folder] = [];
                   
-                  if (fs.existsSync(txtPath)) {
-                      const txtContent = fs.readFileSync(txtPath, "utf-8").trim();
-                      const lines = txtContent.split("\n");
-                      if (lines[0] && lines[0].toLowerCase().startsWith("author:")) {
-                          author = lines[0];
-                          description = lines.slice(1).join("\n").trim();
-                      } else {
-                          description = txtContent;
+                  // Filters out individual documentation .txt paths to find raw files
+                  const files = fs.readdirSync(folder).filter(f => !f.toLowerCase().endsWith(".txt"));
+                  
+                  files.forEach(file => {
+                      let author = "Author: Unknown/Community";
+                      let description = "No documentation string allocated for this source file binary.";
+                      const txtPath = path.join(folder, file + ".txt");
+                      
+                      if (fs.existsSync(txtPath)) {
+                          const txtContent = fs.readFileSync(txtPath, "utf-8").trim();
+                          const lines = txtContent.split("\n");
+                          
+                          // Fixed and safe: Targets lines[0] as a string, keeps lines.slice() as an array
+                          if (lines[0] && lines[0].toLowerCase().startsWith("author:")) {
+                              author = lines[0];
+                              description = lines.slice(1).join("\n").trim();
+                          } else {
+                              description = txtContent;
+                          }
                       }
-                  }
-                  map[folder].push({ name: file, author, description });
-              });
-              fs.writeFileSync("directory.json", JSON.stringify(map, null, 2));
-          }
+                      map[folder].push({ name: file, author, description });
+                  });
+              }
+          });
+          
+          fs.writeFileSync("directory.json", JSON.stringify(map, null, 2));
           '
 
       - name: Commit and Push Index Changes Back to Repository
