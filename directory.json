@@ -52,5 +52,12 @@
       "author": "Author: y4my4my4m",
       "description": "A Quake engine written natively in ZealC."
     }
+  ],
+  "Utilities": [
+    {
+      "name": "fbneo.zip",
+      "author": "Author: Unknown/Community",
+      "description": "No documentation string allocated for this source file binary."
+    }
   ]
 }
