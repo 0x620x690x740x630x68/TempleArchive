@@ -1,0 +1,2 @@
+Author: Alec Murphy
+Slipstream tool for the TempleOS Standard ISO image.
