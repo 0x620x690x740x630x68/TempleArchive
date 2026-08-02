@@ -1,0 +1,2 @@
+Author: Alec Murphy
+Tiling window extensions for TempleOS WinMgr.
