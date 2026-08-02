@@ -41,6 +41,11 @@
       "description": "Chocolate Duke Nukem 3D SDL port for TempleOS."
     },
     {
+      "name": "chocolate-quake.zip",
+      "author": "Author: Alec Murphy",
+      "description": "Chocolate Quake SDL2 port for TempleOS."
+    },
+    {
       "name": "holyshoot.HC",
       "author": "Author: c6dy",
       "description": "A shoot em up / bullet hell game for TempleOS written in HolyC."
@@ -65,6 +70,11 @@
       "name": "bmik.zip",
       "author": "Author: Alec Murphy",
       "description": "Bare-Metal Installation Kit - Easily install TempleOS on bare-metal."
+    },
+    {
+      "name": "gr2png.zip",
+      "author": "Author: Unknown/Community",
+      "description": "No documentation string allocated for this source file binary."
     },
     {
       "name": "svg2gr.zip",
