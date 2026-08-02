@@ -61,6 +61,11 @@
       "name": "fbneo.zip",
       "author": "Author: Alec Murphy",
       "description": "FinalBurn Neo SDL2 port for TempleOS."
+    },
+    {
+      "name": "saphir.zip",
+      "author": "Author: Unknown/Community",
+      "description": "No documentation string allocated for this source file binary."
     }
   ],
   "ZealOS": [
