@@ -22,7 +22,7 @@ jobs:
           const path = require("path");
           
           // Define all top-level archive directories to scan here
-          const folders = ["Games", "ZealOS", "Utilities", "Demos", "Forks"];
+          const folders = ["Games", "Utilities", "Demos", "ZealOS", "Misc", "Forks", "Hymns"];
           const map = {};
 
           folders.forEach(folder => {
