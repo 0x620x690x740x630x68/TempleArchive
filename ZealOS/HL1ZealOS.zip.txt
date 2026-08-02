@@ -1,0 +1,2 @@
+Author: y4my4my4m
+Half-Life 1 GoldSrc port for ZealOS / TempleOS.
