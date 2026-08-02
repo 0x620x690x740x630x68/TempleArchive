@@ -1,0 +1,2 @@
+Author: Alec Murphy
+Bare-Metal Installation Kit - Easily install TempleOS on bare-metal.
