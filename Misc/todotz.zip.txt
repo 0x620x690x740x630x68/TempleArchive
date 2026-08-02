@@ -1,0 +1,2 @@
+Author: Alec Murphy
+Compress file to TempleOS .Z format.
