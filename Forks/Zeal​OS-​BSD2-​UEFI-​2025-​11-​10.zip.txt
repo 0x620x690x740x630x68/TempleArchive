@@ -1,0 +1,2 @@
+Author: Zeal-Operating-System
+ZealOS with Limine for UEFI booting on newer computers.
