@@ -78,8 +78,8 @@
     },
     {
       "name": "isoc-py3.zip",
-      "author": "Author: Unknown/Community",
-      "description": "No documentation string allocated for this source file binary."
+      "author": "Author: Alec Murphy",
+      "description": "TempleOS RedSea FUSE implementation for Python 3."
     },
     {
       "name": "svg2gr.zip",
