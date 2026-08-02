@@ -103,8 +103,8 @@
     },
     {
       "name": "todotz.zip",
-      "author": "Author: Unknown/Community",
-      "description": "No documentation string allocated for this source file binary."
+      "author": "Author: Alec Murphy",
+      "description": "Compress file to TempleOS .Z format."
     }
   ],
   "Forks": [
