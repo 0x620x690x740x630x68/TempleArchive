@@ -68,8 +68,8 @@
     },
     {
       "name": "Zeal​OS-​Public​Domain-​BIOS-​2025-​11-​10.zip",
-      "author": "Author: Unknown/Community",
-      "description": "No documentation string allocated for this source file binary."
+      "author": "Author:     Zeal-Operating-System",
+      "description": "ZealOS that boots by itself on Legacy Boot BIOS compatible computers."
     }
   ]
 }
