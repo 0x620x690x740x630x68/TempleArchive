@@ -64,8 +64,8 @@
     },
     {
       "name": "saphir.zip",
-      "author": "Author: Unknown/Community",
-      "description": "No documentation string allocated for this source file binary."
+      "author": "Author: Alec Murphy",
+      "description": "Tiling window extensions for TempleOS WinMgr."
     }
   ],
   "ZealOS": [
