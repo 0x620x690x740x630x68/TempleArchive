@@ -63,8 +63,8 @@
   "Misc": [
     {
       "name": "bmik.zip",
-      "author": "Author: Unknown/Community",
-      "description": "No documentation string allocated for this source file binary."
+      "author": "Author: Alec Murphy",
+      "description": "Bare-Metal Installation Kit - Easily install TempleOS on bare-metal."
     },
     {
       "name": "svg2gr.zip",
