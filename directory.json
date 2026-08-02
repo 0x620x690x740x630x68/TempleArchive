@@ -52,8 +52,8 @@
     },
     {
       "name": "mmx.zip",
-      "author": "Author: Unknown/Community",
-      "description": "No documentation string allocated for this source file binary."
+      "author": "Author: Alec Murphy",
+      "description": "An old Mega Man X playable demo for TempleOS."
     }
   ],
   "Utilities": [
