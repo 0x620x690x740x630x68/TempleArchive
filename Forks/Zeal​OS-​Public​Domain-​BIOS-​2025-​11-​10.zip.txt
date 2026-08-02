@@ -1,0 +1,2 @@
+Author:     Zeal-Operating-System
+ZealOS that boots by itself on Legacy Boot BIOS compatible computers.
