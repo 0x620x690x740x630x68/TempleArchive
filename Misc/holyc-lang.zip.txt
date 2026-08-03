@@ -1,0 +1,2 @@
+Author: Jamesbarford
+A compiler for Terry A. Davis's HolyC programming language, implemented in C.
