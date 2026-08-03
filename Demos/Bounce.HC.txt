@@ -1,0 +1,2 @@
+Author: Terry A. Davis
+A simple kinematic vector rendering demo that simulates an elastic object squishing and bouncing dynamically against the floor of the screen.
