@@ -81,8 +81,8 @@
     },
     {
       "name": "Strut.zip",
-      "author": "Author: Unknown/Community",
-      "description": "No documentation string allocated for this source file binary."
+      "author": "Author: Terry A. Davis",
+      "description": "A physics playground where you link spring joints together to build bouncy space-net structures and watch zero-gravity forces twist them as you throw them around in space."
     },
     {
       "name": "Templates.zip",
