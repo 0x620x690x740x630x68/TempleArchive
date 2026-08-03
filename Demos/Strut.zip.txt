@@ -1,2 +1,2 @@
 Author: Terry A. Davis
-A physics playground where you link spring joints together to build bouncy space-net structures and watch zero-gravity forces twist them as you throw them around in space.
+A physics playground where you link spring joints and engines together to build a space ship and watch zero-gravity forces act on it as you fly around in space.
