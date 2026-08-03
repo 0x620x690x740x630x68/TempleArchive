@@ -76,8 +76,8 @@
     },
     {
       "name": "Elephant.HC",
-      "author": "Author: Unknown/Community",
-      "description": "No documentation string allocated for this source file binary."
+      "author": "Author: Terry A. Davis",
+      "description": "A 3D mechanical spring-mass elephant that walks, collapses, and dynamically deforms using spring tension math."
     },
     {
       "name": "Strut.zip",
