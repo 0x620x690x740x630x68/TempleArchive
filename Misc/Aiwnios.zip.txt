@@ -1,0 +1,2 @@
+Author: aiwnios
+This is a HolyC Compiler/Runtime written for 64bit x86, aarch64 (includes MacOS) ,RISC-V machines,and WebAssembly.
