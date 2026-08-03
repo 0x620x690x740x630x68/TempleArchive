@@ -1,0 +1,2 @@
+Author: Terry A. Davis
+A 3D mechanical spring-mass elephant that walks, collapses, and dynamically deforms using spring tension math.
