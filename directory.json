@@ -83,8 +83,8 @@
   "Misc": [
     {
       "name": "Aiwnios.zip",
-      "author": "Author: Unknown/Community",
-      "description": "No documentation string allocated for this source file binary."
+      "author": "Author: aiwnios",
+      "description": "This is a HolyC Compiler/Runtime written for 64bit x86, aarch64 (includes MacOS) ,RISC-V machines,and WebAssembly."
     },
     {
       "name": "bmik.zip",
