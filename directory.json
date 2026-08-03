@@ -82,6 +82,11 @@
   ],
   "Misc": [
     {
+      "name": "Aiwnios.zip",
+      "author": "Author: Unknown/Community",
+      "description": "No documentation string allocated for this source file binary."
+    },
+    {
       "name": "bmik.zip",
       "author": "Author: Alec Murphy",
       "description": "Bare-Metal Installation Kit - Easily install TempleOS on bare-metal."
@@ -90,6 +95,11 @@
       "name": "gr2png.zip",
       "author": "Author: Alec Murphy",
       "description": "TempleOS GR -> PNG."
+    },
+    {
+      "name": "holyc-lang.zip",
+      "author": "Author: Unknown/Community",
+      "description": "No documentation string allocated for this source file binary."
     },
     {
       "name": "isoc-py3.zip",
