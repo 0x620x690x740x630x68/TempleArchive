@@ -70,7 +70,12 @@
   ],
   "Demos": [
     {
-      "name": "placeholder",
+      "name": "Bounce.HC",
+      "author": "Author: Unknown/Community",
+      "description": "No documentation string allocated for this source file binary."
+    },
+    {
+      "name": "Elephant.HC",
       "author": "Author: Unknown/Community",
       "description": "No documentation string allocated for this source file binary."
     }
