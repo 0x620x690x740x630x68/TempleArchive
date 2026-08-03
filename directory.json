@@ -71,8 +71,8 @@
   "Demos": [
     {
       "name": "Bounce.HC",
-      "author": "Author: Unknown/Community",
-      "description": "No documentation string allocated for this source file binary."
+      "author": "Author: Terry A. Davis",
+      "description": "A simple kinematic vector rendering demo that simulates an elastic object squishing and bouncing dynamically against the floor of the screen."
     },
     {
       "name": "Elephant.HC",
