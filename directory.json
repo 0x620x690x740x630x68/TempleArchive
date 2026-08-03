@@ -68,6 +68,13 @@
       "description": "Tiling window extensions for TempleOS WinMgr."
     }
   ],
+  "Demos": [
+    {
+      "name": "placeholder",
+      "author": "Author: Unknown/Community",
+      "description": "No documentation string allocated for this source file binary."
+    }
+  ],
   "ZealOS": [
     {
       "name": "HL1ZealOS.zip",
