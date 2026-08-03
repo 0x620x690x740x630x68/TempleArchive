@@ -1,0 +1,2 @@
+Author: tinkeros
+TinkerOS is essentially TempleOS renamed with some changes that allow it to run bare metal.
