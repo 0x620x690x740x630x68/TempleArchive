@@ -1,4 +1,3 @@
 # TempleArchive
-My Archive of TempleOS software.
-
--> www.holyc-archive.com
+My Archive of TempleOS software for:
+- www.holyc-archive.com
