@@ -114,6 +114,11 @@
       "description": "TempleOS GR -> PNG."
     },
     {
+      "name": "holyc-docs.zip",
+      "author": "Author: Unknown/Community",
+      "description": "No documentation string allocated for this source file binary."
+    },
+    {
       "name": "holyc-lang.zip",
       "author": "Author: Jamesbarford",
       "description": "A compiler for Terry A. Davis's HolyC programming language, implemented in C."
