@@ -82,7 +82,7 @@
     {
       "name": "Strut.zip",
       "author": "Author: Terry A. Davis",
-      "description": "A physics playground where you link spring joints and engines together to build a space ship and watch zero-gravity forces act on it as you fly around in space."
+      "description": "A physics engine very similar to Terry's older project, SimStructure, stripped down for TempleOS"
     },
     {
       "name": "Templates.zip",
