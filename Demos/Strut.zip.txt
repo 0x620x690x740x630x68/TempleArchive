@@ -1,2 +1,2 @@
 Author: Terry A. Davis
-A physics engine very similar to Terry's older project, SimStructure, stripped down for TempleOS
+A physics engine very similar to Terry's older project, SimStructure, stripped down for TempleOS.
